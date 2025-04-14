@@ -23,9 +23,7 @@ This repository contains the implementation of an image processing pipeline on F
 
 ## 📷 Sample Outputs
 ![alt text](image.png)
-- Input Image
-- Gaussian Filtered Image
-- Sobel Edge Detected Image
+
 
 ## 📚 Reference Links
 

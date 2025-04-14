@@ -1,0 +1,34 @@
+C:/Users/User1/Desktop/hls1/tesst/solution1/csynth.tcl:15:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=sobel_filter_XLX_SEP_ PragmaOptions=name=sobel_filter_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=sobel_filter
+        ^
+C:/Users/User1/Desktop/hls1/tesst/solution1/directives.tcl:7:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=sobel_filter_XLX_SEP_ PragmaOptions=name=sobel_filter_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=sobel_filter
+        ^
+sobel_filter.cpp:11:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=sobel_filter_XLX_SEP_ PragmaOptions=ap_none port=data_in_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE ap_none port=data_in
+        ^
+sobel_filter.cpp:12:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=sobel_filter_XLX_SEP_ PragmaOptions=ap_none port=write_enable_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE ap_none port=write_enable
+        ^
+sobel_filter.cpp:13:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=sobel_filter_XLX_SEP_ PragmaOptions=ap_none port=read_enable_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE ap_none port=read_enable
+        ^
+sobel_filter.cpp:14:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=sobel_filter_XLX_SEP_ PragmaOptions=ap_none port=data_out_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE ap_none port=data_out
+        ^
+sobel_filter.cpp:15:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=sobel_filter_XLX_SEP_ PragmaOptions=ap_none port=done_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE ap_none port=done
+        ^
+sobel_filter.cpp:16:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=sobel_filter_XLX_SEP_ PragmaOptions=ap_ctrl_none port=return_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE ap_ctrl_none port=return
+        ^
+sobel_filter.cpp:22:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=sobel_filter_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS pipeline
+        ^
+sobel_filter.cpp:39:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=sobel_filter_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS pipeline
+        ^
+sobel_filter.cpp:45:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=sobel_filter_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS unroll
+        ^
+11 warnings generated.

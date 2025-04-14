@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov 10 17:53:46 2024
+# Process ID: 11804
+# Current directory: C:/Users/User1/Desktop/test/vivado/test2/prj2/prj2.runs/outputBuffer_synth_1
+# Command line: vivado.exe -log outputBuffer.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source outputBuffer.tcl
+# Log file: C:/Users/User1/Desktop/test/vivado/test2/prj2/prj2.runs/outputBuffer_synth_1/outputBuffer.vds
+# Journal file: C:/Users/User1/Desktop/test/vivado/test2/prj2/prj2.runs/outputBuffer_synth_1\vivado.jou
+#-----------------------------------------------------------
+source outputBuffer.tcl -notrace

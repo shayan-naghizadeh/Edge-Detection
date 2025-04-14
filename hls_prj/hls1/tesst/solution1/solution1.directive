@@ -1,0 +1,15 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="sobel_filter" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="sobel_filter"/>
+            </pragma>
+        </directive>
+        <directive functionName="sobel_filter" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="sobel_filter"/>
+            </pragma>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+

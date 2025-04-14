@@ -1,0 +1,54 @@
+
+Host Name:                 DESKTOP-A2LG1N2
+OS Name:                   Microsoft Windows 11 Pro
+OS Version:                10.0.22621 N/A Build 22621
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          User1
+Registered Organization:   
+Product ID:                00331-10000-00001-AA823
+Original Install Date:     5/30/2023, 8:07:00 PM
+System Boot Time:          11/8/2024, 6:47:58 PM
+System Manufacturer:       System manufacturer
+System Model:              System Product Name
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 94 Stepping 3 GenuineIntel ~3201 Mhz
+BIOS Version:              American Megatrends Inc. 1803, 5/17/2016
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume4
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+03:30) Tehran
+Total Physical Memory:     16,264 MB
+Available Physical Memory: 9,964 MB
+Virtual Memory: Max Size:  17,288 MB
+Virtual Memory: Available: 9,729 MB
+Virtual Memory: In Use:    7,559 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DESKTOP-A2LG1N2
+Hotfix(s):                 3 Hotfix(s) Installed.
+                           [01]: KB5044033
+                           [02]: KB5044285
+                           [03]: KB5046247
+Network Card(s):           2 NIC(s) Installed.
+                           [01]: Realtek PCIe GbE Family Controller
+                                 Connection Name: Ethernet
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     172.23.128.25
+                                 IP address(es)
+                                 [01]: 172.23.152.121
+                                 [02]: fe80::ecb4:3c58:b780:5bc1
+                           [02]: HotspotShield TAP-Windows Adapter V9
+                                 Connection Name: HotspotShield Network Adapter
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 100.127.255.249
+                                 [02]: fe80::80c4:f1d2:637e:4627
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes

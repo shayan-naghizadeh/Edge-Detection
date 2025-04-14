@@ -1,0 +1,44 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "sobel_filter",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "sobel_filter"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/User1/Desktop/hls1/tesst/solution1/directives.tcl",
+    "sourceLine": 7,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "sobel_filter",
+    "id": 1,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "sobel_filter"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/User1/Desktop/hls1/tesst/solution1/csynth.tcl",
+    "sourceLine": 15,
+    "success": true
+  }
+]

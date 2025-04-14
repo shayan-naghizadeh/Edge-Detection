@@ -1,0 +1,40 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 8 -x 2460 -y 240 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 8 -x 2460 -y 260 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 6 -x 2000 -y 320 -defaultsOSRD
+preplace inst imageProcess_0 -pg 1 -lvl 2 -x 520 -y 530 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 4 -x 1190 -y 300 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 3 -x 840 -y 300 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 200 -y 720 -defaultsOSRD
+preplace inst axis_dwidth_converter_0 -pg 1 -lvl 3 -x 840 -y 540 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 5 -x 1590 -y 90 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 5 -x 1590 -y 350 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 7 -x 2340 -y 140 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 7 30 620 370 440 650 160 1010 160 1420 240 1780 150 2240
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 7 20 140 NJ 140 NJ 140 NJ 140 1400J 210 1770J 160 2220
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 6 380 450 660 170 990 170 1430J 220 1790 170 2230
+preplace netloc imageProcess_0_o_intr 1 2 5 640J 150 NJ 150 1360 230 1760 140 2230
+preplace netloc axi_dma_0_s2mm_introut 1 4 1 N 360
+preplace netloc xlconcat_0_dout 1 5 1 N 350
+preplace netloc processing_system7_0_DDR 1 6 2 NJ 240 N
+preplace netloc processing_system7_0_FIXED_IO 1 6 2 NJ 260 N
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 5 670 180 NJ 180 NJ 180 NJ 180 2210
+preplace netloc ps7_0_axi_periph_M00_AXI 1 3 1 1000 250n
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 1 6 390 120 NJ 120 NJ 120 1380 200 1730 100 N
+preplace netloc imageProcess_0_m_axis 1 2 5 630 130 N 130 1410 190 1740 120 N
+preplace netloc axis_dwidth_converter_0_M_AXIS 1 3 1 1020 270n
+preplace netloc axi_dma_0_M_AXI_MM2S 1 4 1 1370 60n
+preplace netloc axi_smc_M00_AXI 1 5 1 1750 90n
+preplace netloc axi_dma_0_M_AXI_S2MM 1 4 1 1390 80n
+levelinfo -pg 1 0 200 520 840 1190 1590 2000 2340 2460
+pagesize -pg 1 -db -bbox -sgen 0 0 2580 820
+"
+}
+{
+   "da_axi4_cnt":"3",
+   "da_clkrst_cnt":"1",
+   "da_ps7_cnt":"1"
+}

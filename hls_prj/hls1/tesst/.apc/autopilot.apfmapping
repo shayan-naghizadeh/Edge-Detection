@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="sobel_filter.cpp" path="C:\Users\User1\Desktop\hls1\sobel_filter.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="tb.cpp" path="C:\Users\User1\Desktop\hls1\tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

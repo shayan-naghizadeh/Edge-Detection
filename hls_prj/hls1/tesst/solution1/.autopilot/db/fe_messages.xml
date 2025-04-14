@@ -1,0 +1,36 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/User1/Desktop/hls1/tesst/solution1/csynth.tcl:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=sobel_filter" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/User1/Desktop/hls1/tesst/solution1/directives.tcl:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=sobel_filter" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="sobel_filter.cpp:11:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=data_in" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="sobel_filter.cpp:12:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=write_enable" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="sobel_filter.cpp:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=read_enable" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="sobel_filter.cpp:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=data_out" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="sobel_filter.cpp:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=done" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="sobel_filter.cpp:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_none port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="sobel_filter.cpp:22:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="sobel_filter.cpp:39:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="sobel_filter.cpp:45:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel_filter" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

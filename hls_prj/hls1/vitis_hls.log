@@ -1,0 +1,46 @@
+ECHO is off.
+ECHO is off.
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2023.2/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'User1' on host 'desktop-a2lg1n2' (Windows NT_amd64 version 6.2) on Fri Nov 15 23:04:42 +0330 2024
+INFO: [HLS 200-10] In directory 'C:/Users/User1/Desktop/hls1'
+INFO: [HLS 200-2053] The vitis_hls executable is being deprecated. Consider using vitis-run --mode hls --tcl
+Sourcing Tcl script 'C:/Users/User1/Desktop/hls1/tesst/solution1/csynth.tcl'
+INFO: [HLS 200-1510] Running: source C:/Users/User1/Desktop/hls1/tesst/solution1/csynth.tcl
+INFO: [HLS 200-1510] Running: open_project tesst 
+INFO: [HLS 200-10] Opening project 'C:/Users/User1/Desktop/hls1/tesst'.
+INFO: [HLS 200-1510] Running: set_top sobel_filter 
+INFO: [HLS 200-1510] Running: add_files sobel_filter.cpp 
+INFO: [HLS 200-10] Adding design file 'sobel_filter.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb tb.cpp -cflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'tb.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'C:/Users/User1/Desktop/hls1/tesst/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z010-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xc7z010-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: source ./tesst/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name sobel_filter sobel_filter 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.134 seconds; current allocated memory: 113.555 MB.
+INFO: [HLS 200-10] Analyzing design file 'sobel_filter.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 5.041 seconds; current allocated memory: 115.586 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 773 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/Users/User1/Desktop/hls1/tesst/solution1/syn/report/csynth_design_size.rpt
+WARNING: [HLS 200-1995] There were 1,095,635 instructions in the design after the 'Unroll/Inline' phase of compilation. See the Design Size Report for more details: C:/Users/User1/Desktop/hls1/tesst/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 40 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/Users/User1/Desktop/hls1/tesst/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 40 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/Users/User1/Desktop/hls1/tesst/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 40 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/Users/User1/Desktop/hls1/tesst/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 20 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/Users/User1/Desktop/hls1/tesst/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 20 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/Users/User1/Desktop/hls1/tesst/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 20 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/Users/User1/Desktop/hls1/tesst/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 20 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/Users/User1/Desktop/hls1/tesst/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 20 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/Users/User1/Desktop/hls1/tesst/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 20 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/Users/User1/Desktop/hls1/tesst/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 20 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/Users/User1/Desktop/hls1/tesst/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 20 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/Users/User1/Desktop/hls1/tesst/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 20 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/Users/User1/Desktop/hls1/tesst/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 24 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/Users/User1/Desktop/hls1/tesst/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 24 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/Users/User1/Desktop/hls1/tesst/solution1/syn/report/csynth_design_size.rpt

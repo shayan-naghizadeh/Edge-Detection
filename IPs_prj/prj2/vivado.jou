@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Nov 15 22:11:15 2024
+# Process ID: 6684
+# Current directory: C:/Users/User1/Desktop/test/vivado/test2/prj2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14124 C:\Users\User1\Desktop\test\vivado\test2\prj2\prj2.xpr
+# Log file: C:/Users/User1/Desktop/test/vivado/test2/prj2/vivado.log
+# Journal file: C:/Users/User1/Desktop/test/vivado/test2/prj2\vivado.jou
+# Running On: DESKTOP-A2LG1N2, OS: Windows, CPU Frequency: 3192 MHz, CPU Physical cores: 4, Host memory: 17054 MB
+#-----------------------------------------------------------
+start_gui

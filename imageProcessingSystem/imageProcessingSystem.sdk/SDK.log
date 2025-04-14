@@ -1,0 +1,6 @@
+18:00:36 INFO  : Registering command handlers for SDK TCF services
+18:00:37 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\User1\Desktop\test\imageProcessingSystem\imageProcessingSystem.sdk\temp_xsdb_launch_script.tcl
+18:00:40 INFO  : XSCT server has started successfully.
+18:00:40 INFO  : Successfully done setting XSCT server connection channel  
+18:00:40 INFO  : Successfully done setting SDK workspace  
+18:00:40 INFO  : Processing command line option -hwspec C:/Users/User1/Desktop/test/imageProcessingSystem/imageProcessingSystem.sdk/imageProcessingSystem_wrapper.hdf.

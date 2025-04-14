@@ -1,0 +1,18 @@
+{
+  "0": {
+    "basicblocks": 8,
+    "calls": "",
+    "file": "sobel_filter.cpp",
+    "fileloc": 10,
+    "instructions": 40,
+    "loads": {
+      "G": 4
+    },
+    "name": "sobel_filter",
+    "stores": {
+      "G": 3,
+      "T": 4
+    },
+    "total_instructions": 40
+  }
+}
